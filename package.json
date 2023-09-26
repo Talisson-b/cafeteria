@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "next dev -H 192.168.0.104",
+    "build": "next git remote add origin",
     "start": "next start",
     "lint": "next lint"
   },
@@ -13,6 +13,8 @@
     "eslint-config-next": "13.5.2",
     "next": "13.5.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.11.0",
+    "sass": "^1.68.0"
   }
 }

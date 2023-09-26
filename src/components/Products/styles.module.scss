@@ -1,0 +1,20 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.products {
+  @include max-width;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  scroll-margin-top: 10rem;
+
+  @include device(notebook) {
+  grid-template-columns: repeat(2, 1fr);
+    
+  }
+
+  @include device(mobile) {
+    grid-template-columns: 1fr;
+
+  }
+
+}
