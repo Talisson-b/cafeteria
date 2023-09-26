@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev -H 192.168.0.104",
-    "build": "next git remote add origin",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
